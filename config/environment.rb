@@ -7,13 +7,6 @@ RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  config.gem 'factory_girl'
-  config.gem 'shoulda'
-  config.gem "authlogic"
-  config.gem 'railsgarden-message_block', :lib => 'message_block'
-  config.gem 'haml'
-  config.gem 'will_paginate'
-  config.gem 'campaigning'
 
   config.time_zone = 'UTC'
 
